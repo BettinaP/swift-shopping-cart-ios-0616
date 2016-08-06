@@ -18,6 +18,7 @@
 		4D1879F91BF4E0C300233542 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1879F81BF4E0C300233542 /* Item.swift */; };
 		4D187A011BF5200100233542 /* ItemSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D187A001BF5200100233542 /* ItemSpec.swift */; };
 		4D187A031BF529FD00233542 /* CartSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D187A021BF529FD00233542 /* CartSpec.swift */; };
+		DEF33BCC1D55105000D85E70 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF33BCB1D55105000D85E70 /* Cart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		86B80DA16DEC5DE476918AA8 /* Pods_swift_shopping_cartTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_shopping_cartTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8C40E6BE6D52FDCC352C276 /* Pods-swift-shopping-cartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-shopping-cartTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swift-shopping-cartTests/Pods-swift-shopping-cartTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB01B9E5536C1CC3512E714C /* Pods-swift-shopping-cartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-shopping-cartTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-shopping-cartTests/Pods-swift-shopping-cartTests.release.xcconfig"; sourceTree = "<group>"; };
+		DEF33BCB1D55105000D85E70 /* Cart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			children = (
 				4D1879D31BF4DC3500233542 /* AppDelegate.swift */,
 				4D1879F81BF4E0C300233542 /* Item.swift */,
+				DEF33BCB1D55105000D85E70 /* Cart.swift */,
 				4D1879F31BF4DF8200233542 /* Resources */,
 			);
 			path = "swift-shopping-cart";
@@ -348,6 +351,7 @@
 				4D1879D61BF4DC3500233542 /* ViewController.swift in Sources */,
 				4D1879F91BF4E0C300233542 /* Item.swift in Sources */,
 				4D1879D41BF4DC3500233542 /* AppDelegate.swift in Sources */,
+				DEF33BCC1D55105000D85E70 /* Cart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
